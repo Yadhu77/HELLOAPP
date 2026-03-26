@@ -1,6 +1,6 @@
-class public HELLOAPP{
-	public static void main(string [] args){
-	system.out.println(x: "HELLO, World!");
+public class HelloApp {
+	public static void main(String[] args) {
+		String name = args[0];
+		System.out.println("Hello, "+ name + "!");
 	}
 }
-	
